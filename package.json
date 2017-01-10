@@ -1,0 +1,19 @@
+{
+  "name": "javascript-commandline_app-to-search-google",
+  "version": "1.0.0",
+  "description": "A Javascript Commandline App that searches Google",
+  "main": "app/search.js",
+  "scripts": {
+    "test": "jasmine tests/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/I-chat/google-search.git"
+  },
+  "author": "Ichiato Ikikin",
+  "license": "MIT",
+  "dependencies": {
+    "jasmine": "^2.5.2",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
