@@ -12,8 +12,12 @@ function QueryService()
   guest.setRequestHeader("Content-Type", "text/plain");
   guest.send();
   var state = guest.status
-  if (state == 200){
-    console.log("Current currency exchange rates are:\n" + guest.responseText);
+  switch(state) {
+  	case 200:
+  	  console.log("Current currency exchange rates are:\n" + guest.responseText);
+  	  break;
+  	default:
+  	  console.log("The request didn't succeed!\n The response was: " + guest.state + " " + guest.statusText)
   }
 };
 
