@@ -1,14 +1,14 @@
 {
-  "name": "javascript-commandline_app-to-search-google",
+  "name": "javascript-commandline_app-to-search-currency",
   "version": "1.0.0",
-  "description": "A Javascript Commandline App that searches Google",
+  "description": "A Javascript Commandline App that searches currency",
   "main": "app/search.js",
   "scripts": {
     "test": "jasmine tests/tests.js"
   },
   "repository": {
     "type": "git",
-    "url": "github.com/I-chat/google-search.git"
+    "url": "github.com/I-chat/currency-search.git"
   },
   "author": "Ichiato Ikikin",
   "license": "MIT",
