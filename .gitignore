@@ -20,6 +20,10 @@
 *.tar
 *.zip
 
+# Folders #
+node_modules
+tests
+
 # Logs and databases #
 ######################
 *.log
